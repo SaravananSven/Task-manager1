@@ -22,14 +22,15 @@ A simple Task Management API built with Laravel that allows users to create, upd
 ### 1️⃣ Clone the repository
 ```php
 git clone https://github.com/SaravananSven/Task-manager1.git
-cd Task-manager
+cd Task-manager1
 ```
 
 ### 2️⃣ Install dependencies
 ```php
-composer create-project --prefer-dist laravel/laravel
+composer install
 ```
 ### 3️⃣ Set up environment variables
+change the .env.example to .env
 ```php
 cp .env.example .env
 DB_DATABASE=your_database_name
@@ -126,20 +127,20 @@ Response:
   "message": "Task deleted successfully"
 }
 ```
-### 🎯 Additional Features
+## 🎯 Additional Features
 ✅ Laravel RESTful API design
 ✅ Uses Laravel’s Eloquent ORM for database operations
 ✅ Form request validation to ensure correct data
 ✅ Proper error handling for missing tasks
 ✅ Structured JSON responses
 
-### 🛠 Technologies Used
+## 🛠 Technologies Used
 1.Laravel (PHP Framework)
 2.MySQL (Database)
 3.Postman (API Testing)
 4.Eloquent ORM (Database Handling)
 
-### 📌 How to Test the API in Postman
+## 📌 How to Test the API in Postman
 1.Open Postman.
 2.Enter the API endpoint (http://127.0.0.1:8000/api/tasks).
 3.Choose the correct HTTP method (GET, POST, PUT, DELETE).
